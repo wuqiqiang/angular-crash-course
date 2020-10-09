@@ -2,6 +2,7 @@ version: '3.5'
 services:
   app:
     container_name: angular-crash-course
+    restart: 'always'
     build: ./
     networks:
       - my-network
